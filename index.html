@@ -1,128 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Inicio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="assets/logo-encabezado.png">
 </head>
-<body>
 
-    <!--Encabezado -->
+<!-- Encabezado -->
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Inicio</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/png" href="assets/logo-encabezado.png">
-    </head>
-    
-    <!-- Encabezado -->
-    
-    <body class="grid-container">
-        <header class="header">
-            <div class="cabezaDos">
-            <div class="logo">
-                <img src="assets/logo.png" alt="" class="logoImg">
-            </div>
-    
-            <nav class="navegacion">
-                <ul class="lista">
-                    <a href="index.html" class="link"> <img src="https://img.icons8.com/ios-filled/50/000000/home.png" class="favIcon"/> Inicio</a>
-    
-                    <a href="secciones/galeria.html" class="link"> <img src="https://img.icons8.com/glyph-neue/64/000000/gallery.png"  class="favIcon"/> Galeria</a>
-                    
-                    <a href="secciones/misiones.html" class="link"> <img src="https://img.icons8.com/ios-filled/50/000000/add-bookmark.png" class="favIcon"/>Misiones</a>
-                    
-                    <a href="secciones/videos.html" class="link"> <img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-play-button-mintab-for-ios-becris-lineal-becris.png" class="favIcon" />Videos</a>
-    
-                    <a href="secciones/contacto.html" class="link"> <img src="https://img.icons8.com/material-outlined/24/000000/phone-message.png"  class="favIcon"/> Registro </a>
+<body class="grid-container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-            </nav> 
-            </div>
-        </header>
-        
-        <!-- Contenido -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
     
-        <aside class="aside">
-            <h2 class="datoCurioso">DATOS CURIOSOS</h2>
+    <!-- Contenido -->
+
+    <aside class="aside">
+        <h2 class="datoCurioso">DATOS CURIOSOS</h2>
+            
+            <ol class="listaCurioso">
+                <li class="losDatos">La luz tarda 8 minutos y 17 segundos en viajar desde el Sol hasta la superficie terrestre.</li>
+                <li class="losDatos">La Tierra rota a una velocidad de 1.609 km/h, pero se desplaza a través del espacio a la increíble velocidad de 107.826 km/h.</li>
+                <li class="losDatos">Alrededor de 100 rayos alcanzan la Tierra cada segundo.</li>
+                <li class="losDatos">Si el Sol midiese tan solo una pulgada de diámetro (2,54 cm), la estrella más cercana se encontraría a 716 km de distancia.
+                <li class="losDatos">Los astronautas no pueden eructar porque la ingravidez no permite la separación de líquido y gas en sus estómagos.</li>
+                <li class="losDatos">Una millonésima de la millonésima de la millonésima de la millonénisma de la millonésima de segundo después del Big Bang, el universo tenía el tamaño de un guisante.</li>
+                <li class="losDatos">La comunicación sin cables experimentó un gran paso adelante en 1962 con el lanzamiento de Telstar, el primer satélite capaz de retransmitir señales de teléfono y de televisión por satélite.</li>
+                <li class="losDatos">Dentro de 5 mil millones de años el Sol se quedará sin combustible y se convertirá en una Gigante Roja.</li>
+                <li class="losDatos">Utopía es una gran superficie plana de Marte.</li>
+                <li class="losDatos">Las galaxias más grandes contienen un billón de estrellas.</li>
+                <li class="losDatos">Si el Sol fuese del tamaño de un balón de playa, Júpiter tendría el tamaño de una pelota de golf y la Tierra sería tan solo un guisante.</li>
+                <li class="losDatos">Alrededor de mil billones de neutrinos del Sol habrán atravesado tu cuerpo mientras lees esta frase.</li>
+                <li class="losDatos">Un quásar emite más energía que 100 galaxias gigantes.</li>
+                <li class="losDatos">Las estrellas de neutrones son tan densas que una sola cucharadita sería más pesada que toda la población terrestre.</li>
+                <li class="losDatos">En algún lugar del parpadeo de un canal de televisión mal sintonizado se encuentra la radiación de fondo desprendida por el Big Bang.</li>
+            </ol>
+    </aside>
+
+    <article class="main">
+            <div class="cabezaTres">
+                <h1 class="encabezadoUno textos">CONOCE MAS SOBRE</h1>
+                <h2 class="encabezadoDos textos">EL ESPACIO EXTERIOR</h2>
+            </div>
+
+            <div class="contenido">
+                <h1 class="tituloContenido">¿QUE ES EL ESPACIO EXTERIOR?</h1>
                 
-                <ol class="listaCurioso">
-                    <li class="losDatos">La luz tarda 8 minutos y 17 segundos en viajar desde el Sol hasta la superficie terrestre.</li>
-                    <li class="losDatos">La Tierra rota a una velocidad de 1.609 km/h, pero se desplaza a través del espacio a la increíble velocidad de 107.826 km/h.</li>
-                    <li class="losDatos">Alrededor de 100 rayos alcanzan la Tierra cada segundo.</li>
-                    <li class="losDatos">Si el Sol midiese tan solo una pulgada de diámetro (2,54 cm), la estrella más cercana se encontraría a 716 km de distancia.
-                    <li class="losDatos">Los astronautas no pueden eructar porque la ingravidez no permite la separación de líquido y gas en sus estómagos.</li>
-                    <li class="losDatos">Una millonésima de la millonésima de la millonésima de la millonénisma de la millonésima de segundo después del Big Bang, el universo tenía el tamaño de un guisante.</li>
-                    <li class="losDatos">La comunicación sin cables experimentó un gran paso adelante en 1962 con el lanzamiento de Telstar, el primer satélite capaz de retransmitir señales de teléfono y de televisión por satélite.</li>
-                    <li class="losDatos">Dentro de 5 mil millones de años el Sol se quedará sin combustible y se convertirá en una Gigante Roja.</li>
-                    <li class="losDatos">Utopía es una gran superficie plana de Marte.</li>
-                    <li class="losDatos">Las galaxias más grandes contienen un billón de estrellas.</li>
-                    <li class="losDatos">Si el Sol fuese del tamaño de un balón de playa, Júpiter tendría el tamaño de una pelota de golf y la Tierra sería tan solo un guisante.</li>
-                    <li class="losDatos">Alrededor de mil billones de neutrinos del Sol habrán atravesado tu cuerpo mientras lees esta frase.</li>
-                    <li class="losDatos">Un quásar emite más energía que 100 galaxias gigantes.</li>
-                    <li class="losDatos">Las estrellas de neutrones son tan densas que una sola cucharadita sería más pesada que toda la población terrestre.</li>
-                    <li class="losDatos">En algún lugar del parpadeo de un canal de televisión mal sintonizado se encuentra la radiación de fondo desprendida por el Big Bang.</li>
-                </ol>
-        </aside>
-    
-        <article class="main">
-                <div class="cabezaTres">
-                    <h1 class="encabezadoUno textos">CONOCE MAS SOBRE</h1>
-                    <h2 class="encabezadoDos textos">EL ESPACIO EXTERIOR</h2>
-                </div>
-    
-                <div class="contenido">
-                    <h1 class="tituloContenido">¿QUE ES EL ESPACIO EXTERIOR?</h1>
-                    
-                    <p class="parrafoContenido">El Universo es todo lo que podemos tocar, sentir, percibir, medir o detectar.
-                        Abarca los cosas vivas, los planetas, las estrellas, las galaxias, las nubes de polvo, la
-                        luz e incluso el tiempo. Antes de que naciera el Universo, no existían el tiempo, el 
-                        espacio ni la materia.</p>
-                </div>
-    
-    
-                <div class="imgContenido">
-    
-                    <img src="assets/img-1.jfif" alt="exterior" class="imgMain">
-                    <img src="assets/exteriorDos.jfif" alt="exterior" class="imgMain">
-                    <img src="assets/exteriorTres.jfif" alt="exterior" class="imgMain">
-                </div>
-    
-                <div class="contenidoDos">
-                    <p class="parrafoContenido">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quaerat doloremque odio et, sunt, consectetur saepe quo eaque autem, numquam repellat commodi consequatur qui! Alias voluptate repellendus nostrum, debitis, atque id odio sit quam adipisci dolorem molestias vero consequuntur commodi praesentium ut laudantium perspiciatis corporis fuga, sequi quod minus! Nesciunt atque eligendi labore libero rem unde, id voluptatibus tempora dolor nobis corrupti excepturi deserunt repellat repellendus recusandae cupiditate est assumenda!</p>
-                </div>
-        </article>
-    
-        <!-- Pie de pagina -->
-    
-        <footer class="footer">
-            <nav class="navegacionFooter">
-    
-                <p class="copyFooter">
-                    Hecho por &copy;Sebastian Casallas
-                </p>
-    
-                <ul class="listaNav">
-    
-                   <a href="index.html" class="linkNav"> <img src="https://img.icons8.com/ios-filled/50/000000/home.png" class="favIcon"/> Inicio</a>
-    
-                            
-                    <a href="secciones/galeria.html" class="linkNav"> <img src="https://img.icons8.com/glyph-neue/64/000000/gallery.png"  class="favIcon"/> Galeria</a>
-                            
-                    <a href="secciones/misiones.html" class="linkNav"> <img src="https://img.icons8.com/ios-filled/50/000000/add-bookmark.png" class="favIcon"/>Misiones</a>
-                            
-                    <a href="secciones/videos.html" class="linkNav"> <img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-play-button-mintab-for-ios-becris-lineal-becris.png" class="favIcon" />Videos</a>
-                            
-                    <a href="secciones/contacto.html" class="linkNav"> <img src="https://img.icons8.com/material-outlined/24/000000/phone-message.png"  class="favIcon"/> Registro </a>
-                </ul>
-            </nav>
-        </footer>
-    
-    </body>
-    </html>
+                <p class="parrafoContenido">El Universo es todo lo que podemos tocar, sentir, percibir, medir o detectar.
+                    Abarca los cosas vivas, los planetas, las estrellas, las galaxias, las nubes de polvo, la
+                    luz e incluso el tiempo. Antes de que naciera el Universo, no existían el tiempo, el 
+                    espacio ni la materia.</p>
+            </div>
+
+
+            <div class="imgContenido">
+
+                <img src="assets/img-1.jfif" alt="exterior" class="imgMain">
+                <img src="assets/exteriorDos.jfif" alt="exterior" class="imgMain">
+                <img src="assets/exteriorTres.jfif" alt="exterior" class="imgMain">
+            </div>
+
+            <div class="contenidoDos">
+                <p class="parrafoContenido">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quaerat doloremque odio et, sunt, consectetur saepe quo eaque autem, numquam repellat commodi consequatur qui! Alias voluptate repellendus nostrum, debitis, atque id odio sit quam adipisci dolorem molestias vero consequuntur commodi praesentium ut laudantium perspiciatis corporis fuga, sequi quod minus! Nesciunt atque eligendi labore libero rem unde, id voluptatibus tempora dolor nobis corrupti excepturi deserunt repellat repellendus recusandae cupiditate est assumenda!</p>
+            </div>
+    </article>
+
+    <!-- Pie de pagina -->
+
+    <footer class="footer">
+        <nav class="navegacionFooter">
+
+            <p class="copyFooter">
+                Hecho por &copy;Sebastian Casallas
+            </p>
+
+            <ul class="listaNav">
+
+               <a href="index.html" class="linkNav"> <img src="https://img.icons8.com/ios-filled/50/000000/home.png" class="favIcon"/> Inicio</a>
+
+                        
+                <a href="secciones/galeria.html" class="linkNav"> <img src="https://img.icons8.com/glyph-neue/64/000000/gallery.png"  class="favIcon"/> Galeria</a>
+                        
+                <a href="secciones/misiones.html" class="linkNav"> <img src="https://img.icons8.com/ios-filled/50/000000/add-bookmark.png" class="favIcon"/>Misiones</a>
+                        
+                <a href="secciones/videos.html" class="linkNav"> <img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-play-button-mintab-for-ios-becris-lineal-becris.png" class="favIcon" />Videos</a>
+                        
+                <a href="secciones/contacto.html" class="linkNav"> <img src="https://img.icons8.com/material-outlined/24/000000/phone-message.png"  class="favIcon"/> Registro </a>
+            </ul>
+        </nav>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 </body>
 </html>
