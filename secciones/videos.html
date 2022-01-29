@@ -1,64 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videos</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../assets/logo-encabezado.png">
 </head>
-<body>
+<body class="grid-container-videos">
 
-    <!-- Encabezado -->
+    <!-- En cabezado -->
 
-    <header class="cabeza">
-
-        <div class="cabezaDos">
+        <header class="header">
+            <div class="cabezaDos">
             <div class="logo">
                 <img src="../assets/logo.png" alt="" class="logoImg">
-            </div> 
-
-                <nav class="navegacion">
-                    <ul class="lista">
-                        <a href="../index.html" class="link"> <img src="https://img.icons8.com/ios-filled/50/000000/home.png" class="favIcon"/> Inicio</a>
-                        <a href="galeria.html" class="link"> <img src="https://img.icons8.com/glyph-neue/64/000000/gallery.png"  class="favIcon"/> Galeria</a>
-                        <a href="misiones.html" class="link"> <img src="https://img.icons8.com/ios-filled/50/000000/add-bookmark.png" class="favIcon"/> Misiones</a>
-                        <a href="videos.html" class="link"> <img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-play-button-mintab-for-ios-becris-lineal-becris.png" class="favIcon" />Videos</a>
-                        <a href="contacto.html" class="link"> <img src="https://img.icons8.com/material-outlined/24/000000/phone-message.png"  class="favIcon"/> Registro </a>
-                    </ul>
-                </nav>
-
-        </div>
-        
-    </header>
-
-    <!-- Contenido -->
-    <main class="mainVideos">
-        <div class="video">
-            <h2 class="tituloVideoUno">Imagenes de marte</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3qhAvPmh-Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="video">
-            <h2 class="tituloVideoDos">Queda una semana para el despliegue del </h2>
-            <h2 class="tituloVideoTres">telescopio espacial Jame Webb - 07/01/22</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HlEIqespFTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </main>
+            </div>
     
-    <!-- Footer -->
+            <nav class="navegacion">
+                <ul class="lista">
+                    <a href="../index.html" class="link"> <img src="https://img.icons8.com/ios-filled/50/000000/home.png" class="favIcon"/> Inicio</a>
+    
+                    
+                    <a href="galeria.html" class="link"> <img src="https://img.icons8.com/glyph-neue/64/000000/gallery.png"  class="favIcon"/> Galeria</a>
+                    
+                    <a href="misiones.html" class="link"> <img src="https://img.icons8.com/ios-filled/50/000000/add-bookmark.png" class="favIcon"/>Misiones</a>
+                    
+                    <a href="videos.html" class="link"> <img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-play-button-mintab-for-ios-becris-lineal-becris.png" class="favIcon" />Videos</a>
+    
+                    <a href="contacto.html" class="link"> <img src="https://img.icons8.com/material-outlined/24/000000/phone-message.png"  class="favIcon"/> Registro </a>
+                </ul>
+            </nav> 
+            </div>
+        </header>
 
-    <footer class="mainFooter">
-        
-        <nav class="navegacionFooter">
+        <!-- Contenido -->
+
+        <main class="mainVideos">
+            <div class="video">
+                <h2 class="tituloVideoUno">Imagenes del espacio exterior</h2>
+                <video src="../assets/video2.mp4" controls></video>
+            </div>
+            <div class="video caja">
+                <h2 class="tituloVideoDos">Imagenes del espacio exterior</h2>
+                <video src="../assets/video1.mp4" controls></video>
+            </div>
+        </main>
+
+        <!-- Pie de pagina -->
+
+        <footer class="footer">
+            <nav class="navegacionFooter">
+    
                 <p class="copyFooter">
                     Hecho por &copy;Sebastian Casallas
                 </p>
-
-                <ul class="lista">
-                    <a href="../index.html" class="link"> <img src="https://img.icons8.com/ios-filled/50/000000/home.png" class="favIcon"/> Inicio</a>
-                    <a href="galeria.html" class="link"> <img src="https://img.icons8.com/glyph-neue/64/000000/gallery.png"  class="favIcon"/> Galeria</a>
-                    <a href="misiones.html" class="link"> <img src="https://img.icons8.com/ios-filled/50/000000/add-bookmark.png" class="favIcon"/> Misiones</a>
-                    <a href="videos.html" class="link"> <img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-play-button-mintab-for-ios-becris-lineal-becris.png" class="favIcon" />Videos</a>
-                    <a href="contacto.html" class="link"> <img src="https://img.icons8.com/material-outlined/24/000000/phone-message.png"  class="favIcon"/> Registro </a>
+    
+                <ul class="listaNav">
+    
+                   <a href="../index.html" class="linkNav"> <img src="https://img.icons8.com/ios-filled/50/000000/home.png" class="favIcon"/> Inicio</a>
+    
+                            
+                    <a href="galeria.html" class="linkNav"> <img src="https://img.icons8.com/glyph-neue/64/000000/gallery.png"  class="favIcon"/> Galeria</a>
+                            
+                    <a href="misiones.html" class="linkNav"> <img src="https://img.icons8.com/ios-filled/50/000000/add-bookmark.png" class="favIcon"/>Misiones</a>
+                            
+                    <a href="videos.html" class="linkNav"> <img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-play-button-mintab-for-ios-becris-lineal-becris.png" class="favIcon" />Videos</a>
+                            
+                    <a href="contacto.html" class="linkNav"> <img src="https://img.icons8.com/material-outlined/24/000000/phone-message.png"  class="favIcon"/> Registro </a>
                 </ul>
-        </nav>
-    </footer>
+            </nav>
+        </footer>
 </body>
 </html>
