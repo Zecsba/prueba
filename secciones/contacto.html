@@ -4,74 +4,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="icon" type="image/png" href="../assets/logo-encabezado.png">
+    <link rel="icon" href="../assets/logo-encabezado-vector.png">
+    <title>Registro</title>
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Mis estilos -->
+
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body class="grid-container-contacto">
-    <!-- En cabezado -->
+<body>
+    
+    <!-- header -->
 
-<header class="header">
-    <div class="cabezaDos">
-    <div class="logo">
-        <img src="../assets/logo.png" alt="" class="logoImg">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="../index.html"><img src="../assets/LogoVectorizado.png" class="me-3" ></a>
+            <a href="../index.html"  class="navbar-brand my-auto d-none d-lg-block">Zecsba</a>
+            <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link active me-4">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="galeria.html" class="nav-link active me-4">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="videos.html" class="nav-link active me-4">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="misiones.html" class="nav-link active me-4">Misiones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacto.html" class="nav-link active me-4">Registro</a>
+                    </li>
+                  </ul>
+              </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+
+    <div class="container w-75 shadow my-5 mainRegistro">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
+                
+            </div>
+            <div class="col p-4">
+                <div class="text-center">
+                    <img src="../assets/logo-encabezado-vector.png" width="25%" alt="">
+                </div>
+
+                <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+
+                <!-- login -->
+
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo electronico</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Correo electronico</label>
+                        <input type="password" class="form-control" name="password">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+                    </div>
+
+                    <div class="my-3">
+                        <span>No tienes cuenta? <a href="#">Registrate</a></span> <br>
+                        <span><a href="#">Recuperar contraseña</a></span>
+                    </div>
+                </form>
+
+                <!-- LOGIN CON REDES SOCIALES -->
+
+                <div class="container w-100 my-5">
+                    <div class="row text-center">
+                        <div class="col-12">Iniciar Sesion</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-outline-primary w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="../assets/facebook.svg" width="32" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-10 text-center">
+                                        Facebook
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-danger w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="../assets/google.svg" width="32" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-10 text-center">
+                                        Google
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <nav class="navegacion">
-        <ul class="lista">
-            <a href="../index.html" class="link"> <img src="https://img.icons8.com/ios-filled/50/000000/home.png" class="favIcon"/> Inicio</a>
+    <!-- footer -->
 
-            
-            <a href="galeria.html" class="link"> <img src="https://img.icons8.com/glyph-neue/64/000000/gallery.png"  class="favIcon"/> Galeria</a>
-            
-            <a href="misiones.html" class="link"> <img src="https://img.icons8.com/ios-filled/50/000000/add-bookmark.png" class="favIcon"/>Misiones</a>
-            
-            <a href="videos.html" class="link"> <img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-play-button-mintab-for-ios-becris-lineal-becris.png" class="favIcon" />Videos</a>
-
-            <a href="contacto.html" class="link"> <img src="https://img.icons8.com/material-outlined/24/000000/phone-message.png"  class="favIcon"/> Registro </a>
-        </ul>
-    </nav> 
-    </div>
-</header>
-
-<!-- Contenido -->
-
-<main class="formRegister">
-    <form>
-        <h4>Formulario registro</h4>
-        <input type="text" name="nombre" class="nombres controls" placeholder="Ingrese su nombre">
-        <input type="text" name="apellido" class="apellido controls" placeholder="Ingrese su Apellido">
-        <input type="email" name="correo" class="correo controls" placeholder="Ingrese su Correo">
-        <input type="password" name="contraseña" class="contraseña controls" placeholder="Ingrese su contraseña">
-        <p>Estoy de acuerco con <a href="#">Terminos y condiciones</a></p>
-        <input class="botons" type="submit" value="Registrar">
-        <p><a href="#">¿Ya tienes cuenta?</a></p>
-    </form>
-</main>
-
-<!-- Pie de pagina -->
-
-<footer class="footer">
-    <nav class="navegacionFooter">
-
+    <footer class="container-fluid bg-dark py-5 text-center text-light">
         <p class="copyFooter">
-            Hecho por &copy;Sebastian Casallas
+          Hecho por &copy;Sebastian Casallas
         </p>
+        <div class="bg-light rounded-pill d-inline-flex my-auto p-1">
+          <a href="https://www.youtube.com/channel/UCAP7yEe3WTvgDiMFwoWYbYw"  target="_black" class="m-2">
+            <img src="../assets/youtube.svg" alt="">
+          </a>
+          <a href="https://www.instagram.com/sebastian_casallas_arias/?hl=es-la" target="_black" class="m-2">
+            <img src="../assets/instagram.svg" alt="">
+          </a>
+          <a href="https://github.com/Zecsba" target="_black" class="m-2">
+            <img src="../assets/github.svg" alt="">
+          </a>
+        </div>
+      </footer>
 
-        <ul class="listaNav">
-
-           <a href="../index.html" class="linkNav"> <img src="https://img.icons8.com/ios-filled/50/000000/home.png" class="favIcon"/> Inicio</a>
-
-                    
-            <a href="galeria.html" class="linkNav"> <img src="https://img.icons8.com/glyph-neue/64/000000/gallery.png"  class="favIcon"/> Galeria</a>
-                    
-            <a href="misiones.html" class="linkNav"> <img src="https://img.icons8.com/ios-filled/50/000000/add-bookmark.png" class="favIcon"/>Misiones</a>
-                    
-            <a href="videos.html" class="linkNav"> <img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-play-button-mintab-for-ios-becris-lineal-becris.png" class="favIcon" />Videos</a>
-                    
-            <a href="contacto.html" class="linkNav"> <img src="https://img.icons8.com/material-outlined/24/000000/phone-message.png"  class="favIcon"/> Registro </a>
-        </ul>
-    </nav>
-</footer>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </body>
 </html>
