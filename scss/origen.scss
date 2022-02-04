@@ -1,5 +1,13 @@
 /* Importaciones */
 
+/* Animacion de la navegacion*/
+
+.nav-item{
+    a:hover{  
+            border-bottom: beige 1px solid;
+    }
+}
+
 @import "index";
 @import "contacto";
 @import "galeria";
