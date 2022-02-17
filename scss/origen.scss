@@ -1,15 +1,9 @@
-/* Importaciones */
-
-/* Animacion de la navegacion*/
-
-.nav-item{
-    a:hover{  
-            border-bottom: beige 1px solid;
-    }
-}
-
+@import "variables";
+@import "header";
 @import "index";
-@import "contacto";
-@import "galeria";
-@import "misiones";
 @import "videos";
+@import "misiones";
+@import "galeria";
+@import "contacto";
+@import "footer";
+

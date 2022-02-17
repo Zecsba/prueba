@@ -1,0 +1,17 @@
+
+ /* Punto de ruptura de la barra de navegacion*/
+ 
+$breakpoints:(
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
+
+@mixin media($breakpoint ) {
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+        
+}

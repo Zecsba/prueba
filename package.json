@@ -1,24 +1,24 @@
 {
-  "name": "prueba-git",
+  "name": "boostrap",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/origen.scss css/style.css",
-"watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zecsba/prueba.git"
+    "url": "git+https://github.com/Zecsba/bootstrap.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zecsba/prueba/issues"
+    "url": "https://github.com/Zecsba/bootstrap/issues"
   },
-  "homepage": "https://github.com/Zecsba/prueba#readme",
+  "homepage": "https://github.com/Zecsba/bootstrap#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"

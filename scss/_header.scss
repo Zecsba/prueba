@@ -1,0 +1,38 @@
+@import "variables";
+/* Header */
+
+.nav-item a:hover{
+    border-bottom: beige 1px solid;
+}
+
+.header{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: .75rem;
+    padding-right: .75rem;
+
+    @include media(sm){
+        width: 540px;
+    }
+
+    @include media(md){
+        width: 720px;
+    }
+
+    @include media(lg){
+        width: 960px;
+    }
+
+    @include media(xl){
+        width: 1140px;
+    }
+
+    @include media(xxl){
+        width: 1320px;
+    }
+}
