@@ -1,27 +1,24 @@
+@import "variables";
 /* Index */
 
 .tituloContenido{
-    color: #333;
-    font-size: 1.6rem;
-    margin: 120px 0px 20px 0px;
+    @include titulos(#333, 140px 0px 40px 0px); 
 }
 
+
 .parrafoContenido{
-    color: #333;
-    font-size: 1.1rem;
+    color:  $letraColor;
+    font-size: $tamaño;
     margin-bottom: 20px;
 }
 
 .datoCurioso{
-    color: #333;
-    font-size: 1.2rem;
+    color:  $letraColor;
+    font-size: $tamaño;
+
 }
 
 .listaCurioso{
-    color: #333;
-    font-size: 1rem;
-}
-
-.losDatos:hover{
-    border-bottom: 1px #333 solid;
+    color:  $letraColor;
+    font-size: $tamañoDos;
 }

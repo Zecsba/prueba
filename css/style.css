@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* Punto de ruptura de la barra de navegacion*/
+/* Titulos */
+/* Tipografia */
 /* Punto de ruptura de la barra de navegacion*/
+/* Titulos */
+/* Tipografia */
 /* Header */
 .nav-item a:hover {
   border-bottom: beige 1px solid; }
@@ -31,27 +35,28 @@
     .header {
       width: 1320px; } }
 
+/* Punto de ruptura de la barra de navegacion*/
+/* Titulos */
+/* Tipografia */
 /* Index */
 .tituloContenido {
   color: #333;
-  font-size: 1.6rem;
-  margin: 120px 0px 20px 0px; }
+  margin: 140px 0px 40px 0px;
+  font-size: 3rem;
+  text-align: center; }
 
 .parrafoContenido {
-  color: #333;
-  font-size: 1.1rem;
+  color: #336;
+  font-size: 1.3rem;
   margin-bottom: 20px; }
 
 .datoCurioso {
-  color: #333;
-  font-size: 1.2rem; }
+  color: #336;
+  font-size: 1.3rem; }
 
 .listaCurioso {
-  color: #333;
-  font-size: 1rem; }
-
-.losDatos:hover {
-  border-bottom: 1px #333 solid; }
+  color: #336;
+  font-size: 1.1rem; }
 
 .mainVideos {
   margin-bottom: 20px; }
@@ -87,6 +92,8 @@
   object-fit: cover; }
 
 /* Punto de ruptura de la barra de navegacion*/
+/* Titulos */
+/* Tipografia */
 /* Galeria */
 .article {
   margin-top: 120px !important; }

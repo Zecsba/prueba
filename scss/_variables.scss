@@ -15,3 +15,18 @@ $breakpoints:(
     }
         
 }
+
+/* Titulos */
+
+@mixin titulos($color, $margen){
+    color: $color;
+    margin: $margen;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* Tipografia */
+
+$letraColor:#336;
+$tamaño: 1.3rem;
+$tamañoDos: 1.1rem;
