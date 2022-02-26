@@ -1,7 +1,13 @@
 .mainVideos{
-    margin-bottom: 20px;
+    margin-bottom: 140px;
+
+    h1{
+        @include titulos(#333, 140px 0px 40px 0px);
+        padding: 8px;
+    }
+
     h2{
-        margin: 120px 0px 40px 0px;
+        @extend h1;
     }
 }
 

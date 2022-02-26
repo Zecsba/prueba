@@ -59,9 +59,13 @@
   font-size: 1.1rem; }
 
 .mainVideos {
-  margin-bottom: 20px; }
-  .mainVideos h2 {
-    margin: 120px 0px 40px 0px; }
+  margin-bottom: 140px; }
+  .mainVideos h1, .mainVideos h2 {
+    color: #333;
+    margin: 140px 0px 40px 0px;
+    font-size: 3rem;
+    text-align: center;
+    padding: 8px; }
 
 .video {
   margin-top: 20px;
