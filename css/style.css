@@ -95,8 +95,11 @@
 /* Titulos */
 /* Tipografia */
 /* Galeria */
-.article {
-  margin-top: 120px !important; }
+.article .tituloGaleria {
+  color: #333;
+  margin: 140px 0px 40px 0px;
+  font-size: 3rem;
+  text-align: center; }
 
 .cajaCard {
   width: 100%;
@@ -114,11 +117,12 @@
     padding: 0px;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    text-align: center; }
     .cajaCard .card .card-body {
       padding: .75rem; }
       .cajaCard .card .card-body .card-title, .cajaCard .card .card-body p {
-        font-size: 1.45rem;
+        font-size: 1.9rem;
         margin-bottom: 20px; }
       .cajaCard .card .card-body p {
         /* No sabia en que mas usar el @extend  😅*/
