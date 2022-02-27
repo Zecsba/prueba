@@ -21,12 +21,32 @@ $breakpoints:(
 @mixin titulos($color, $margen){
     color: $color;
     margin: $margen;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+
+    /* REsponsive de los titulos */
+
+    @include media(sm){
+        font-size: 2.3rem;
+    }
+
+    @include media(md){
+        font-size: 2.6rem;
+    }
+
+    @include media(lg){
+        font-size: 2.8rem;
+    }
+
+    @include media(xl){
+        font-size: 3rem;
+    }
 }
+
 
 /* Tipografia */
 
 $letraColor:#336;
 $tamaño: 1.3rem;
 $tamañoDos: 1.1rem;
+

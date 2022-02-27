@@ -42,8 +42,21 @@
 .tituloContenido {
   color: #333;
   margin: 140px 0px 40px 0px;
-  font-size: 3rem;
-  text-align: center; }
+  font-size: 2rem;
+  text-align: center;
+  /* REsponsive de los titulos */ }
+  @media screen and (min-width: 576px) {
+    .tituloContenido {
+      font-size: 2.3rem; } }
+  @media screen and (min-width: 768px) {
+    .tituloContenido {
+      font-size: 2.6rem; } }
+  @media screen and (min-width: 992px) {
+    .tituloContenido {
+      font-size: 2.8rem; } }
+  @media screen and (min-width: 1200px) {
+    .tituloContenido {
+      font-size: 3rem; } }
 
 .parrafoContenido {
   color: #336;
@@ -66,9 +79,22 @@
   .mainVideos h1, .mainVideos h2 {
     color: #333;
     margin: 140px 0px 40px 0px;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    /* REsponsive de los titulos */
     padding: 8px; }
+    @media screen and (min-width: 576px) {
+      .mainVideos h1, .mainVideos h2 {
+        font-size: 2.3rem; } }
+    @media screen and (min-width: 768px) {
+      .mainVideos h1, .mainVideos h2 {
+        font-size: 2.6rem; } }
+    @media screen and (min-width: 992px) {
+      .mainVideos h1, .mainVideos h2 {
+        font-size: 2.8rem; } }
+    @media screen and (min-width: 1200px) {
+      .mainVideos h1, .mainVideos h2 {
+        font-size: 3rem; } }
 
 .video {
   margin-top: 20px;
@@ -94,9 +120,22 @@
   .mainMisiones .tituloMisiones, .mainMisiones h2 {
     color: #333;
     margin: 140px 0px 0px 0px;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    /* REsponsive de los titulos */
     padding: 8px; }
+    @media screen and (min-width: 576px) {
+      .mainMisiones .tituloMisiones, .mainMisiones h2 {
+        font-size: 2.3rem; } }
+    @media screen and (min-width: 768px) {
+      .mainMisiones .tituloMisiones, .mainMisiones h2 {
+        font-size: 2.6rem; } }
+    @media screen and (min-width: 992px) {
+      .mainMisiones .tituloMisiones, .mainMisiones h2 {
+        font-size: 2.8rem; } }
+    @media screen and (min-width: 1200px) {
+      .mainMisiones .tituloMisiones, .mainMisiones h2 {
+        font-size: 3rem; } }
   .mainMisiones h2 {
     margin: 0px 0px 40px 0px; }
 
@@ -116,8 +155,21 @@
 .article .tituloGaleria {
   color: #333;
   margin: 140px 0px 40px 0px;
-  font-size: 3rem;
-  text-align: center; }
+  font-size: 2rem;
+  text-align: center;
+  /* REsponsive de los titulos */ }
+  @media screen and (min-width: 576px) {
+    .article .tituloGaleria {
+      font-size: 2.3rem; } }
+  @media screen and (min-width: 768px) {
+    .article .tituloGaleria {
+      font-size: 2.6rem; } }
+  @media screen and (min-width: 992px) {
+    .article .tituloGaleria {
+      font-size: 2.8rem; } }
+  @media screen and (min-width: 1200px) {
+    .article .tituloGaleria {
+      font-size: 3rem; } }
 
 .cajaCard {
   width: 100%;
