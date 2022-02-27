@@ -1,7 +1,31 @@
+@import "variables";
+
 /* Contacto */
 
 .mainRegistro{
-    margin-top: 120px !important;
+    width: 100%;
+    margin-top: 140px;
     border-radius: 10px;
-    border: 3px solid #dee2e6 !important;
+    border: 3px solid #dee2e6;
+
+
+    @include media(sm){
+        width: 80%;
+    }
+
+    @include media(md){
+        width: 70%;
+    }
+
+    @include media(lg){
+        width: 60%;
+    }
+
+    @include media(xl){
+        width: 50%;
+    }
+
+    @include media(xxl){
+        width: 40%;
+    }
 }
